@@ -1,18 +1,5 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "artifacts/portfolio/package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "dist/public"
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ]
+  "buildCommand": "cd artifacts/portfolio && pnpm install --frozen-lockfile && pnpm run build",
+  "outputDirectory": "artifacts/portfolio/dist/public",
+  "installCommand": "pnpm install --frozen-lockfile"
 }

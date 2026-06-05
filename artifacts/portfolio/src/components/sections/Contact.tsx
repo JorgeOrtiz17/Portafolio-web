@@ -62,14 +62,14 @@ export function Contact() {
             
             <div className="flex flex-col items-center gap-2">
               <ExternalLink className="w-6 h-6 text-muted-foreground mb-2" />
-              <h4 className="font-semibold">Portfolio Actual</h4>
+              <h4 className="font-semibold">Portafolio Actual</h4>
               <a 
                 href="https://sebastianortiz.vercel.app" 
                 target="_blank" 
                 rel="noreferrer"
                 className="text-sm text-primary hover:underline"
               >
-                sebastianortiz.vercel.app
+                sebastianortiz-web.vercel.app
               </a>
             </div>
 

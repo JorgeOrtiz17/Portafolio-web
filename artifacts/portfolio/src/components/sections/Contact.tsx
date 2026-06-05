@@ -64,7 +64,7 @@ export function Contact() {
               <ExternalLink className="w-6 h-6 text-muted-foreground mb-2" />
               <h4 className="font-semibold">Portafolio Actual</h4>
               <a 
-                href="https://sebastianortiz.vercel.app" 
+                href="https://sebastianortiz-web.vercel.app/" 
                 target="_blank" 
                 rel="noreferrer"
                 className="text-sm text-primary hover:underline"

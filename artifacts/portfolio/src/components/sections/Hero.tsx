@@ -65,7 +65,7 @@ export function Hero() {
               <Button asChild size="lg" variant="outline" className="rounded-full px-8 h-14 text-base gap-2">
                 <a
                   href={cvUrl}
-                  download
+                  download="CV_JORGE_SEBASTIAN_ORTIZ_HUMO.pdf"
                   target="_blank"
                   rel="noreferrer"
                 >

@@ -25,7 +25,7 @@ export function Hero() {
             >
               <span className="inline-block w-12 h-[2px] bg-primary"></span>
               <span className="text-primary font-medium tracking-wider uppercase text-sm">
-                Ingeniería de Sistemas — Último Semestre
+              System Engineer | Frontend, Backend & AI Solutions
               </span>
             </motion.div>
 
@@ -45,7 +45,7 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-lg md:text-xl text-muted-foreground max-w-xl mb-10 leading-relaxed font-light"
             >
-              Full Stack Developer & Investigador. Transformando complejidad técnica en interfaces dinámicas y soluciones escalables con precisión de ingeniería.
+              Desarrollador Full Stack con experiencia en React, Angular, NestJS y Python. He desarrollado aplicaciones web, dashboards analíticos en Power BI y proyectos de inteligencia artificial enfocados en resolver problemas reales mediante datos y automatización.
             </motion.p>
 
             <motion.div
@@ -60,19 +60,30 @@ export function Hero() {
                 Ver Experiencia
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Button>
-              <Button size="lg" variant="outline" className="rounded-full px-8 h-14 text-base gap-2">
-                <FileText className="w-4 h-4" />
-                Descargar CV
+              <Button asChild size="lg" variant="outline" className="rounded-full px-8 h-14 text-base gap-2">
+                <a
+                  href="/CV_Jorge_Sebastian_Ortiz_Humo.pdf"
+                  download
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FileText className="w-4 h-4" />
+                  Descargar CV
+                </a>
               </Button>
 
               <div className="flex items-center gap-2 ml-2">
-                <Button size="icon" variant="ghost" className="rounded-full h-12 w-12 hover:bg-primary/10 hover:text-primary transition-colors">
-                  <Github className="w-5 h-5" />
-                  <span className="sr-only">GitHub</span>
+                <Button asChild size="icon" variant="ghost" className="rounded-full h-12 w-12 hover:bg-primary/10 hover:text-primary transition-colors">
+                  <a href="https://github.com/JorgeOrtiz17" target="_blank" rel="noreferrer">
+                    <Github className="w-5 h-5" />
+                    <span className="sr-only">GitHub</span>
+                  </a>
                 </Button>
-                <Button size="icon" variant="ghost" className="rounded-full h-12 w-12 hover:bg-primary/10 hover:text-primary transition-colors">
-                  <Linkedin className="w-5 h-5" />
-                  <span className="sr-only">LinkedIn</span>
+                <Button asChild size="icon" variant="ghost" className="rounded-full h-12 w-12 hover:bg-primary/10 hover:text-primary transition-colors">
+                  <a href="https://www.linkedin.com/in/jorge-sebastian-ortiz-humo-241135191/" target="_blank" rel="noreferrer">
+                    <Linkedin className="w-5 h-5" />
+                    <span className="sr-only">LinkedIn</span>
+                  </a>
                 </Button>
               </div>
             </motion.div>

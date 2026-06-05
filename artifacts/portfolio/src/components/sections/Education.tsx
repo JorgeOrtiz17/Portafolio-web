@@ -14,7 +14,7 @@ export function Education() {
   ];
 
   return (
-    <section className="py-24 bg-secondary/30">
+    <section id="education" className="py-24 bg-secondary/30">
       <div className="container mx-auto px-6 md:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           

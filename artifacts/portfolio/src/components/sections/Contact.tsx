@@ -27,7 +27,7 @@ export function Contact() {
             className="text-lg text-muted-foreground mb-12"
           >
             Abierto a oportunidades como desarrollador, analista de datos e ingeniero de software. 
-            Radicado en Pamplona, Colombia, disponible para roles remotos.
+            Pamplona, Colombia, disponible para roles remotos.
           </motion.p>
 
           <motion.div 

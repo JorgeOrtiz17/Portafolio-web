@@ -51,7 +51,7 @@ export function Skills() {
             viewport={{ once: true }}
             className="text-3xl md:text-4xl font-bold mb-4"
           >
-            Ecosistema Técnico
+            Habilidades
           </motion.h2>
           <motion.div 
             initial={{ opacity: 0, scale: 0.8 }}

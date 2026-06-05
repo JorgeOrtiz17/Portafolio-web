@@ -53,7 +53,7 @@ export function About() {
             <div className="w-20 h-1 bg-primary mb-8"></div>
             
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              Soy estudiante de último semestre de Ingeniería de Sistemas con enfoque en el ciclo de vida completo del desarrollo de software. 
+              Soy Ingeniero de Sistemas con enfoque en el ciclo de vida completo del desarrollo de software. 
               Combino la ingeniería de interfaces fluidas con arquitecturas backend sólidas.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">

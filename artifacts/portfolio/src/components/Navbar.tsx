@@ -5,9 +5,9 @@ import { Menu, X } from "lucide-react";
 const navLinks = [
   { name: "Inicio", href: "#hero" },
   { name: "Perfil", href: "#about" },
-  { name: "Experiencia", href: "#experience" },
   { name: "Habilidades", href: "#skills" },
-  { name: "Investigación", href: "#research" },
+  { name: "Experiencia", href: "#experience" },
+  { name: "Educación", href: "#education" },
   { name: "Contacto", href: "#contact" },
 ];
 
@@ -47,7 +47,7 @@ export function Navbar() {
           <div className="w-8 h-8 rounded-md bg-primary flex items-center justify-center text-primary-foreground">
             J
           </div>
-          <span>Ortiz<span className="text-primary">.</span></span>
+          <span>Sebastian Ortiz<span className="text-primary">.</span></span>
         </div>
 
         {/* Desktop Nav */}

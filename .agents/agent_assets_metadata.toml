@@ -1,0 +1,8 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "43MXZcWiP7T44M7Mpb20w"
+uri = "file://artifacts/portfolio/src/assets/hero-astral.png"
+type = "image"
+title = "astral software engineering hero"

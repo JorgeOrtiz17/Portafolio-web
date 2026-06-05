@@ -3,7 +3,7 @@ import { Microscope, Activity, ChevronRight } from "lucide-react";
 
 export function Research() {
   return (
-    <section id="research" className="py-24 bg-background">
+    <section id="research" className="py-24">
       <div className="container mx-auto px-6 md:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           

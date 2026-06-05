@@ -6,7 +6,7 @@ export function Hero() {
   return (
     <section 
       id="hero" 
-      className="relative min-h-[100dvh] flex items-center pt-20 overflow-hidden bg-background"
+      className="relative min-h-[100dvh] flex items-center pt-20 overflow-hidden"
     >
       {/* Decorative Grid */}
       <div className="absolute inset-0 bg-grid-pattern opacity-[0.03] dark:opacity-[0.05] pointer-events-none" />

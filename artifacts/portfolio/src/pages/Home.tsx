@@ -6,18 +6,22 @@ import { Experience } from "@/components/sections/Experience";
 import { Research } from "@/components/sections/Research";
 import { Education } from "@/components/sections/Education";
 import { Contact } from "@/components/sections/Contact";
+import { StarField } from "@/components/StarField";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-background text-foreground">
-      <Navbar />
-      <Hero />
-      <About />
-      <Skills />
-      <Experience />
-      <Research />
-      <Education />
-      <Contact />
+    <main className="min-h-screen text-foreground relative" style={{ backgroundColor: "hsl(228 39% 6%)" }}>
+      <StarField />
+      <div className="relative" style={{ zIndex: 1 }}>
+        <Navbar />
+        <Hero />
+        <About />
+        <Skills />
+        <Experience />
+        <Research />
+        <Education />
+        <Contact />
+      </div>
     </main>
   );
 }

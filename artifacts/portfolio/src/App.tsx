@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Switch, Route, Router as WouterRouter } from "wouter";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
@@ -6,6 +7,13 @@ import Home from "@/pages/Home";
 import NotFound from "@/pages/not-found";
 
 const queryClient = new QueryClient();
+
+function DarkMode() {
+  useEffect(() => {
+    document.documentElement.classList.add("dark");
+  }, []);
+  return null;
+}
 
 function Router() {
   return (
@@ -20,6 +28,7 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
+        <DarkMode />
         <WouterRouter base={import.meta.env.BASE_URL.replace(/\/$/, "")}>
           <Router />
         </WouterRouter>

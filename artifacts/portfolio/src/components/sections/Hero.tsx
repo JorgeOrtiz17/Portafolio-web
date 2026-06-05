@@ -2,7 +2,8 @@ import { motion } from "framer-motion";
 import { ArrowRight, FileText, Github, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroAstral from "@/assets/hero-astral.png";
-import cvPdf from "@/doc/CV JORGE SEBASTIÁN ORTIZ HUMO.pdf";
+import cvUrl from "@/doc/CV JORGE SEBASTIÁN ORTIZ HUMO.pdf";
+
 
 export function Hero() {
   return (
@@ -63,7 +64,7 @@ export function Hero() {
               </Button>
               <Button asChild size="lg" variant="outline" className="rounded-full px-8 h-14 text-base gap-2">
                 <a
-                  href={cvPdf}
+                  href={cvUrl}
                   download
                   target="_blank"
                   rel="noreferrer"
